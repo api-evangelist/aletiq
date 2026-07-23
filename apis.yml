@@ -1,8 +1,28 @@
 aid: aletiq
 name: Aletiq
-description: Aletiq is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aletiq is a French software company building a next-generation, AI-powered Product Lifecycle
+  Management (PLM) and Product Data Management (PDM) platform for regulated manufacturers. The platform
+  centralizes technical data (CAD files, drawings, bills of materials, configurations, and work
+  instructions), enforces traceability and regulatory compliance, and automates business processes such
+  as approvals, engineering change management, and project milestones. Aletiq emphasizes rapid deployment
+  and high adoption across operational teams, and integrates with major CAD tools (SolidWorks, CATIA,
+  Autodesk Inventor, Siemens NX, Creo) and ERP systems (SAP, Sage, Cegid, Infor, Odoo) via connectors and
+  a custom-integration API. It serves aerospace and defense, medical devices, energy, electronics,
+  automotive, and luxury-goods industries. Aletiq is backed by Point Nine and added to the API Evangelist
+  network as a portfolio-lead profile.
 url: https://raw.githubusercontent.com/api-evangelist/aletiq/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6271589098ab6ca52370dccd/63c28643f449c654db9b81ba_Couverture-Aletiq-Solution-PLM-PDM.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,6 +34,15 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- PLM
+- Product Lifecycle Management
+- PDM
+- Manufacturing
+- CAD
+- Engineering
+- Compliance
+- Aerospace
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aletiq-domain-security.yml
 - type: Website
   url: https://www.aletiq.com
+- type: Blog
+  url: https://www.aletiq.com/ressources/blog
+- type: Support
+  url: https://www.aletiq.com/ressources/contact
+- type: Login
+  url: https://app.aletiq.com/
+- type: PrivacyPolicy
+  url: https://www.aletiq.com/politique-de-confidentialite
+- type: TermsOfService
+  url: https://www.aletiq.com/mentions-legales
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
