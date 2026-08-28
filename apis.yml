@@ -11,6 +11,17 @@ description: Aletiq is a French software company building a next-generation, AI-
   automotive, and luxury-goods industries. Aletiq is backed by Point Nine and added to the API Evangelist
   network as a portfolio-lead profile.
 url: https://raw.githubusercontent.com/api-evangelist/aletiq/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
